@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/collection/zwischen-wahn-und-vision.json",
+  "type": "Collection",
+  "label": { "de": ["Zwischen Wahn und Vision – Sammlung"] },
+  "description": { "de": ["Eine Sammlung von IIIF-Manifesten mit Werken aus der Sammlung Prinzhorn und Surrealismus-Beispielen von Max Ernst."] },
+  "manifests": [
+    {
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Natterer-Wunderhirthe.json",
+      "type": "Manifest",
+      "label": { "de": ["August Natterer – Wunder-Hirthe(II)"] }
+    },
+    {
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Genzel-Teufel.json",
+      "type": "Manifest",
+      "label": { "de": ["Karl Genzel – Der Teufel mit Pferdefuß und Horn"] }
+    },
+    {
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Oedipe.json",
+      "type": "Manifest",
+      "label": { "de": ["Max Ernst – Œdipe (1931)"] }
+    },
+    {
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Der-Schwachsinnige.json",
+      "type": "Manifest",
+      "label": { "de": ["Max Ernst – Der Schwachsinnige"] }
+    }
+  ]
+}
