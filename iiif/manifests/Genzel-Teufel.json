@@ -1,8 +1,6 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Genzel-Teufel.json",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Genzel-Teufel.json",
   "type": "Manifest",
   "label": {
     "de": ["Sammlung Prinzhorn Heidelberg"]
@@ -49,34 +47,36 @@
   "viewingDirection": "left-to-right",
   "provider": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/",
       "type": "Agent",
       "label": { "de": ["Sammlung Prinzhorn Heidelberg"] },
       "logo": [
         {
           "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Genzel_Karl_GND_1035272202_https_d_nb_info_gnd_1035272202_Teufel_a052cb68/full/full/0/default.jpg",
           "type": "Image",
-          "format": "image/jpeg"
+          "format": "image/jpeg",
+          "height": 1073,
+          "width": 1600
         }
       ]
     }
   ],
   "items": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/1",
       "type": "Canvas",
       "label": { "de": ["Teufel"] },
       "height": 1073,
       "width": 1600,
       "items": [
         {
-          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1/page/1",
+          "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/1/page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/1",
+              "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/annotation/1",
               "type": "Annotation",
-              "motivation": "Skulptur",
+              "motivation": "painting",
               "body": {
                 "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Genzel_Karl_GND_1035272202_https_d_nb_info_gnd_1035272202_Teufel_a052cb68/full/full/0/default.jpg",
                 "type": "Image",
@@ -84,7 +84,7 @@
                 "height": 1073,
                 "width": 1600
               },
-              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1"
+              "target": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/1"
             }
           ]
         }
