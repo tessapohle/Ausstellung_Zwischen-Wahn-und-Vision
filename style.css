@@ -137,6 +137,24 @@ h2 {
 .gallery img:hover {
   transform: scale(1.03);
 }
+/* Bild links neben Einführungstext */
+.text-with-image {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem; /* Abstand zwischen Bild und Text */
+}
+
+.text-with-image .left-image {
+  max-width: 200px; /* Größe des Buchdeckels */
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.text-with-image .text-content {
+  flex: 1;
+}
+
 
 /* Footer */
 footer {
