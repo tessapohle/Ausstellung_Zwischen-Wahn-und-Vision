@@ -6,18 +6,19 @@
   <title>Einführung & Ausstellungskontext</title>
   <link rel="stylesheet" href="../style.css">
   <style>
-    /* Allgemeine Styles */
+    /* Grundlayout */
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #fff;
-      color: #333;
       margin: 0;
       padding: 0;
+      background-color: #fafafa;
+      color: #333;
     }
 
     header {
-      background-color: #f0f0f0;
-      padding: 1rem;
+      background-color: #fff;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ddd;
       text-align: center;
     }
 
@@ -27,13 +28,13 @@
     }
 
     nav {
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
 
     nav a {
       text-decoration: none;
-      color: #0077cc;
-      margin: 0 1rem;
+      color: #005fa3;
+      margin: 0 0.8rem;
       font-weight: bold;
     }
 
@@ -42,98 +43,93 @@
     }
 
     main {
-      padding: 2rem;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
 
-    section {
+    /* Kartenlayout */
+    .card {
+      display: flex;
+      flex-wrap: wrap;
       margin-bottom: 2rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
     }
 
-    h2 {
+    .card img {
+      width: 100%;
+      max-width: 400px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      flex: 1;
+      padding: 1.5rem;
+      background-color: #f9f9f9;
+    }
+
+    .card-content h2 {
+      margin-top: 0;
+      color: #005fa3;
       font-size: 1.5rem;
-      color: #0077cc;
-      margin-bottom: 1rem;
-    }
-
-    p {
-      line-height: 1.6;
-    }
-
-    .image-container {
-      text-align: center;
-      margin: 2rem 0;
-    }
-
-    .image-container img {
-      max-width: 80%;
-      height: auto;
-      border: 1px solid #ccc;
     }
 
     .story-feature {
-      background-color: #f9f9f9;
-      padding: 1rem;
-      border-left: 5px solid #0077cc;
-      margin: 1rem 0;
+      background-color: #e8f0fe;
+      padding: 1.5rem;
+      border-left: 6px solid #005fa3;
+      margin: 2rem 0;
+      border-radius: 6px;
     }
 
     footer {
-      background-color: #f0f0f0;
+      background-color: #fff;
       padding: 1rem;
       text-align: center;
       font-size: 0.875rem;
+      border-top: 1px solid #ddd;
+    }
+
+    /* Responsiv */
+    @media (max-width: 768px) {
+      .card {
+        flex-direction: column;
+      }
+      .card img {
+        max-width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Einführung & Ausstellungskontext</h1>
     <nav>
-      <a href="../index.html">Startseite</a> |
-      <a href="sammlung_Prinzhorn.html">Outsider Art</a> |
-      <a href="surrealismus.html">Surrealismus</a> |
-      <a href="natterer.html">August Natterer</a> |
-      <a href="genzel.html">Karl Genzel</a> |
-      <a href="ernst.html">Max Ernst</a> |
+      <a href="../index.html">Startseite</a>
+      <a href="sammlung_Prinzhorn.html">Outsider Art</a>
+      <a href="surrealismus.html">Surrealismus</a>
+      <a href="natterer.html">August Natterer</a>
+      <a href="genzel.html">Karl Genzel</a>
+      <a href="ernst.html">Max Ernst</a>
       <a href="reflexion.html">Zwischen Wahn und Vision</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Abstract</h2>
-      <p>Diese digitale Ausstellung widmet sich der Schnittstelle von <strong>Outsider Art</strong> und <strong>Surrealismus</strong>, am Beispiel von Werken aus der Sammlung Prinzhorn sowie ausgewählten Arbeiten Max Ernsts. Der Fokus liegt auf den formalen und inhaltlichen Parallelen zwischen den psychiatrisch kontextualisierten Bildwelten von August Natterer und Karl Genzel sowie der surrealistischen Praxis von Max Ernst. Basierend auf IIIF-Technologie bietet die Ausstellung eine interaktive, annotierte Nutzererfahrung mit vertiefenden Vergleichseinblicken.</p>
-    </section>
+    <!-- Abstract Karte -->
+    <div class="card">
+      <img src="path/to/bild1.jpg" alt="Symbolbild Ausstellung">
+      <div class="card-content">
+        <h2>Abstract</h2>
+        <p>Diese digitale Ausstellung widmet sich der Schnittstelle von <strong>Outsider Art</strong> und <strong>Surrealismus</strong>, am Beispiel von Werken aus der Sammlung Prinzhorn sowie ausgewählten Arbeiten Max Ernsts. Basierend auf IIIF-Technologie bietet die Ausstellung eine interaktive, annotierte Nutzererfahrung mit vertiefenden Vergleichseinblicken.</p>
+      </div>
+    </div>
 
-    <section>
-      <h2>Themeneinführung</h2>
-      <p>Kunstwerke von Menschen mit psychischen Ausnahmeerfahrungen galten lange Zeit als Randerscheinung des etablierten Kunstbetriebs. Doch mit der Gründung der Sammlung Prinzhorn Anfang des 20. Jahrhunderts verschob sich die Perspektive: Diese Sammlung, initiiert vom Arzt und Kunsthistoriker Hans Prinzhorn, dokumentiert künstlerische Arbeiten von psychiatrischen Patienten und ermöglichte eine Neubewertung von Kreativität und Ausdruck jenseits akademischer Konventionen. Die Werke, die zwischen 1840 und 1945 in deutschen Heilanstalten entstanden, zeichnen sich durch ihre ungeschulte, intuitive und oft visionäre Gestaltung aus – ein Aspekt, der sie für Künstler der Avantgarde, insbesondere des Surrealismus, außerordentlich interessant machte.</p>
-    </section>
-
-    <section>
-      <h2>Hintergrund und Relevanz</h2>
-      <p>Die Beziehung zwischen Outsider Art und Surrealismus ist nicht nur kunsthistorisch bedeutsam, sondern auch hochaktuell – besonders im Kontext kuratorischer Praxis. Eine Ausstellung, die diesen Dialog thematisiert, bietet die Chance, bisherige Grenzziehungen innerhalb der Kunstwelt zu hinterfragen: Wer gilt als „Künstler“? Wo verläuft die Grenze zwischen Genie und Wahnsinn? Und inwiefern bestimmt gesellschaftliche Anerkennung den Wert eines Kunstwerks?</p>
-    </section>
-
-    <section>
-      <h2>Intention und Zielgruppe der Ausstellung</h2>
-      <p>Die Ausstellung richtet sich an ein breites kunstinteressiertes Publikum – von Studierenden und Fachwissenschaftler*innen bis hin zu Kunstbegeisterten, die sich für ungewöhnliche Ausdrucksformen jenseits des etablierten Kunstkanons interessieren. Sie eröffnet einen respektvollen Zugang zu der Kunst von Menschen mit psychischen Ausnahmeerfahrungen und soll zur Auseinandersetzung mit deren künstlerischem Schaffen jenseits psychiatrischer oder gesellschaftlicher Stigmatisierung anregen.</p>
-    </section>
-
-    <section class="image-container">
-      <img src="path/to/buchdeckel.jpg" alt="Buchdeckel 'Bildnerei der Geisteskranken'">
-    </section>
-
-    <section class="story-feature">
-      <h3>Was erwartet Sie?</h3>
-      <p>Erkunden Sie die faszinierenden Verbindungen zwischen Outsider Art und Surrealismus durch interaktive Exponate, vertiefende Vergleiche und multimediale Inhalte. Tauchen Sie ein in die Welt der Künstler und entdecken Sie neue Perspektiven auf Kreativität und Ausdruck.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Ihre Ausstellung. Alle Rechte vorbehalten.</p>
-  </footer>
-
-</body>
-</html>
+    <!-- Themeneinführung Karte -->
+    <div class="card">
+      <div class="card-content">
+        <h2>Themeneinführung</h2>
+        <p>Kunstwerke von Menschen mit psychischen Ausnahmeerfahrungen galten lange Zeit als Randerscheinung des etablierten
