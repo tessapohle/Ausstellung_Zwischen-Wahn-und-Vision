@@ -1,15 +1,15 @@
 /* Farb- & Typography-Schema im Stil des Museum Barberini */
 :root {
-  --tonal-dunkel: #003a63;       /* Dunkles Blau für Headings & Links */
+  --tonal-dunkel: #000000;       /* Schwarz für Headings & Links */
   --tonal-hell: #f5f5f5;         /* Light background */
-  --accent-gold: #c49b66;        /* Warmes Gold als Akzent */
+  --accent-gold: #000c75;        /* dunkles Blau als Akzent */
   --text-color: #222;            /* Haupttextfarbe */
   --link-color: #004a99;         /* Linkfarbe */
 }
 
 body {
   margin: 0;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Aptos", serif;
   color: var(--text-color);
   background-color: var(--tonal-hell);
   line-height: 1.6;
@@ -18,7 +18,7 @@ body {
 /* Header & Navigation */
 header {
   background-color: var(--tonal-dunkel);
-  color: white;
+  color: #c5e0c4;
   padding: 2rem;
   text-align: center;
 }
@@ -33,7 +33,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #c5e0c4;
   margin: 0 0.8rem;
   text-decoration: none;
   font-size: 1rem;
@@ -57,7 +57,7 @@ section {
 }
 
 h2 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Aptos", serif;
   font-size: 1.75rem;
   color: var(--tonal-dunkel);
   border-left: 8px solid var(--accent-gold);
