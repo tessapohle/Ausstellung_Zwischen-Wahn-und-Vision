@@ -1,9 +1,6 @@
-
- {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Ernst-Der-Schwachsinnige.json",
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Der-Schwachsinnige.json",
   "type": "Manifest",
   "label": {
     "de": ["Max Ernst – Der Schwachsinnige"]
@@ -41,7 +38,8 @@
       "label": { "de": ["Beschreibung (inhaltlich/konzeptuell)"] },
       "value": {
         "de": [
-        "Die Bronzeplastik zeigt eine abstrahierte Büste, deren Kopf in geometrische und organische Elemente aufgespalten ist. Über der Kopfpartie wachsen vogelähnliche und maskenhafte Formen hervor, die parasitäre Gedanken oder innere Stimmen symbolisieren könnten. Der Titel „Der Schwachsinnige“ verweist auf gesellschaftliche Zuschreibungen geistiger Abweichung, die Ernst hier grotesk verfremdet. Das Werk verbindet Ernsts wiederkehrende Vogelmotive mit einer kritischen Reflexion über Wahnsinn und Stigmatisierung. In der dunkel patinierten Bronze verschränken sich Strenge und spielerische Dynamik, wodurch eine ambivalente Wirkung zwischen Bedrohung und Humor entsteht."        ]
+          "Die Bronzeplastik zeigt eine abstrahierte Büste, deren Kopf in geometrische und organische Elemente aufgespalten ist. Über der Kopfpartie wachsen vogelähnliche und maskenhafte Formen hervor, die parasitäre Gedanken oder innere Stimmen symbolisieren könnten. Der Titel „Der Schwachsinnige“ verweist auf gesellschaftliche Zuschreibungen geistiger Abweichung, die Ernst hier grotesk verfremdet. Das Werk verbindet Ernsts wiederkehrende Vogelmotive mit einer kritischen Reflexion über Wahnsinn und Stigmatisierung. In der dunkel patinierten Bronze verschränken sich Strenge und spielerische Dynamik, wodurch eine ambivalente Wirkung zwischen Bedrohung und Humor entsteht."
+        ]
       }
     }
   ],
@@ -49,34 +47,36 @@
   "viewingDirection": "left-to-right",
   "provider": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/",
       "type": "Agent",
-      "label": { "de": ["Sammlung Prinzhorn Heidelberg"] },
+      "label": { "de": ["Projekt: Zwischen Wahn und Vision"] },
       "logo": [
         {
           "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Der_Schwachsinnige_dcbc21d5/full/full/0/default.jpg",
           "type": "Image",
-          "format": "image/jpeg"
+          "format": "image/jpeg",
+          "height": 1035,
+          "width": 1396
         }
       ]
     }
   ],
   "items": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-der-schwachsinnige-1",
       "type": "Canvas",
       "label": { "de": ["Der Schwachsinnige"] },
       "height": 1035,
       "width": 1396,
       "items": [
         {
-          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1/page/1",
+          "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-der-schwachsinnige-1/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/1",
+              "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/annotation/ernst-der-schwachsinnige-1",
               "type": "Annotation",
-              "motivation": "Skulptur",
+              "motivation": "painting",
               "body": {
                 "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Der_Schwachsinnige_dcbc21d5/full/full/0/default.jpg",
                 "type": "Image",
@@ -84,7 +84,7 @@
                 "height": 1035,
                 "width": 1396
               },
-              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/1"
+              "target": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-der-schwachsinnige-1"
             }
           ]
         }
