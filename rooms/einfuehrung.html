@@ -2,23 +2,22 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Einführung & Ausstellungskontext</title>
   <link rel="stylesheet" href="../style.css">
   <style>
-
+    /* Allgemeine Styles */
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Arial', sans-serif;
+      background-color: #fff;
+      color: #333;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
-      background-color: #fdfdfd;
-      color: #1a1a1a;
     }
 
     header {
-      background: linear-gradient(90deg, #004aad, #ff7f32);
-      color: #fff;
-      padding: 1rem 2rem;
+      background-color: #f0f0f0;
+      padding: 1rem;
       text-align: center;
     }
 
@@ -28,13 +27,13 @@
     }
 
     nav {
-      margin-top: 0.5rem;
+      margin-top: 1rem;
     }
 
     nav a {
-      color: #fff;
-      margin: 0 0.5rem;
       text-decoration: none;
+      color: #0077cc;
+      margin: 0 1rem;
       font-weight: bold;
     }
 
@@ -44,37 +43,20 @@
 
     main {
       padding: 2rem;
-      max-width: 1000px;
-      margin: 0 auto;
     }
 
     section {
-      margin-bottom: 2.5rem;
-      padding: 1rem;
-      border-left: 5px solid #ff7f32;
-      background-color: #eaf2ff;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
     }
 
     h2 {
-      color: #004aad;
-      border-bottom: 2px solid #ff7f32;
-      padding-bottom: 0.3rem;
-      margin-top: 0;
+      font-size: 1.5rem;
+      color: #0077cc;
+      margin-bottom: 1rem;
     }
 
     p {
-      margin: 0.8rem 0;
-    }
-
-    .story-feature {
-      background-color: #ffefdd;
-      border-left: 5px solid #ff7f32;
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 5px;
-      font-style: italic;
+      line-height: 1.6;
     }
 
     .image-container {
@@ -85,21 +67,26 @@
     .image-container img {
       max-width: 80%;
       height: auto;
-      border: 2px solid #004aad;
-      border-radius: 5px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      border: 1px solid #ccc;
+    }
+
+    .story-feature {
+      background-color: #f9f9f9;
+      padding: 1rem;
+      border-left: 5px solid #0077cc;
+      margin: 1rem 0;
     }
 
     footer {
-      background-color: #004aad;
-      color: #fff;
-      text-align: center;
+      background-color: #f0f0f0;
       padding: 1rem;
-      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.875rem;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Einführung & Ausstellungskontext</h1>
     <nav>
@@ -116,43 +103,37 @@
   <main>
     <section>
       <h2>Abstract</h2>
-      <p>Diese digitale Ausstellung widmet sich der Schnittstelle von <strong>Outsider Art</strong> und <strong>Surrealismus</strong>, am Beispiel von Werken aus der Sammlung Prinzhorn sowie ausgewählten Arbeiten Max Ernsts. 
-      Der Fokus liegt auf den formalen und inhaltlichen Parallelen zwischen den psychiatrisch kontextualisierten Bildwelten von August Natterer und Karl Genzel sowie der surrealistischen Praxis von Max Ernst. 
-      Basierend auf IIIF-Technologie bietet die Ausstellung eine interaktive, annotierte Nutzererfahrung mit vertiefenden Vergleichseinblicken.</p>
+      <p>Diese digitale Ausstellung widmet sich der Schnittstelle von <strong>Outsider Art</strong> und <strong>Surrealismus</strong>, am Beispiel von Werken aus der Sammlung Prinzhorn sowie ausgewählten Arbeiten Max Ernsts. Der Fokus liegt auf den formalen und inhaltlichen Parallelen zwischen den psychiatrisch kontextualisierten Bildwelten von August Natterer und Karl Genzel sowie der surrealistischen Praxis von Max Ernst. Basierend auf IIIF-Technologie bietet die Ausstellung eine interaktive, annotierte Nutzererfahrung mit vertiefenden Vergleichseinblicken.</p>
     </section>
 
     <section>
-      <h2>Thematische Einführung</h2>
-      <p>Kunstwerke von Menschen mit psychischen Ausnahmeerfahrungen galten lange Zeit als Randerscheinung der Kunstgeschichte. Mit der Gründung der Sammlung Prinzhorn Anfang des 20. Jahrhunderts verschob sich diese Perspektive. 
-      Die Sammlung, initiiert von Hans Prinzhorn, dokumentiert künstlerische Arbeiten von Patient:innen aus deutschen Heilanstalten und eröffnet einen neuen Blick auf Kreativität jenseits akademischer Konventionen.</p>
-
-      <p>Die Surrealisten, angeführt von André Breton, suchten nach Ausdrucksformen des Unbewussten, des Traums und des Irrationalen. In Prinzhorns Werk <em>„Bildnerei der Geisteskranken“</em> (1922) fanden sie Inspiration für ihre eigene Bildsprache. Künstler wie Max Ernst integrierten Motive und Techniken aus den Werken der Patient:innen – insbesondere von August Natterer – in ihre Arbeiten.</p>
-
-      <div class="image-container">
-        <img src="../assets/scans/bildnerei_buchdeckel.jpg" alt="Scan des Buchdeckels von Bildnerei der Geisteskranken">
-        <p><em>Scan des Buchdeckels von „Bildnerei der Geisteskranken“ (1922)</em></p>
-      </div>
-
-      <div class="story-feature">
-        <p><strong>Story-Feature:</strong> Willkommen! In dieser Ausstellung erwarten Sie interaktive Einblicke in die Schnittstellen von Outsider Art und Surrealismus. Entdecken Sie Werke von Max Ernst, August Natterer und Karl Genzel und erfahren Sie, wie psychiatrische Kontexte die Bildsprache beeinflussten.</p>
-      </div>
+      <h2>Themeneinführung</h2>
+      <p>Kunstwerke von Menschen mit psychischen Ausnahmeerfahrungen galten lange Zeit als Randerscheinung des etablierten Kunstbetriebs. Doch mit der Gründung der Sammlung Prinzhorn Anfang des 20. Jahrhunderts verschob sich die Perspektive: Diese Sammlung, initiiert vom Arzt und Kunsthistoriker Hans Prinzhorn, dokumentiert künstlerische Arbeiten von psychiatrischen Patienten und ermöglichte eine Neubewertung von Kreativität und Ausdruck jenseits akademischer Konventionen. Die Werke, die zwischen 1840 und 1945 in deutschen Heilanstalten entstanden, zeichnen sich durch ihre ungeschulte, intuitive und oft visionäre Gestaltung aus – ein Aspekt, der sie für Künstler der Avantgarde, insbesondere des Surrealismus, außerordentlich interessant machte.</p>
     </section>
 
     <section>
       <h2>Hintergrund und Relevanz</h2>
-      <p>Die Beziehung zwischen Outsider Art und Surrealismus ist kunsthistorisch bedeutsam und hochaktuell für kuratorische Praxis. Wer gilt als „Künstler:in“? Wo verläuft die Grenze zwischen Genie und Wahnsinn? Wie beeinflusst gesellschaftliche Anerkennung den Wert eines Kunstwerks?</p>
-      <p>Die Sammlung Prinzhorn bietet einen symbolischen Ausgangspunkt, um Kreativität nicht ausschließlich über Technik, Intention oder Marktwert zu definieren. Die Werke fordern dazu auf, Individualität, Ausdruckskraft und ästhetische Qualität unabhängig von Ausbildung oder sozialer Stellung anzuerkennen.</p>
+      <p>Die Beziehung zwischen Outsider Art und Surrealismus ist nicht nur kunsthistorisch bedeutsam, sondern auch hochaktuell – besonders im Kontext kuratorischer Praxis. Eine Ausstellung, die diesen Dialog thematisiert, bietet die Chance, bisherige Grenzziehungen innerhalb der Kunstwelt zu hinterfragen: Wer gilt als „Künstler“? Wo verläuft die Grenze zwischen Genie und Wahnsinn? Und inwiefern bestimmt gesellschaftliche Anerkennung den Wert eines Kunstwerks?</p>
     </section>
 
     <section>
-      <h2>Intention und Zielgruppe</h2>
-      <p>Die Ausstellung richtet sich an ein breites Publikum – von Studierenden und Fachwissenschaftler:innen bis hin zu kunstinteressierten Laien. Sie vermittelt respektvollen Zugang zu Kunst von Menschen mit psychischen Ausnahmeerfahrungen und zeigt, dass diese Werke eigenständige Beiträge zur Kunstgeschichte sind.</p>
-      <p>Dank der digitalen Umsetzung mittels IIIF ist die Ausstellung ortsunabhängig zugänglich und ermöglicht interaktive Annotationen, Vergleiche und vertiefende Einblicke. So eröffnet sie neue Perspektiven auf Kreativität, Ausdruck und Wahrnehmung.</p>
+      <h2>Intention und Zielgruppe der Ausstellung</h2>
+      <p>Die Ausstellung richtet sich an ein breites kunstinteressiertes Publikum – von Studierenden und Fachwissenschaftler*innen bis hin zu Kunstbegeisterten, die sich für ungewöhnliche Ausdrucksformen jenseits des etablierten Kunstkanons interessieren. Sie eröffnet einen respektvollen Zugang zu der Kunst von Menschen mit psychischen Ausnahmeerfahrungen und soll zur Auseinandersetzung mit deren künstlerischem Schaffen jenseits psychiatrischer oder gesellschaftlicher Stigmatisierung anregen.</p>
+    </section>
+
+    <section class="image-container">
+      <img src="path/to/buchdeckel.jpg" alt="Buchdeckel 'Bildnerei der Geisteskranken'">
+    </section>
+
+    <section class="story-feature">
+      <h3>Was erwartet Sie?</h3>
+      <p>Erkunden Sie die faszinierenden Verbindungen zwischen Outsider Art und Surrealismus durch interaktive Exponate, vertiefende Vergleiche und multimediale Inhalte. Tauchen Sie ein in die Welt der Künstler und entdecken Sie neue Perspektiven auf Kreativität und Ausdruck.</p>
     </section>
   </main>
 
   <footer>
-    <p>Zwischen Wahn und Vision – Ausstellung | GitHub Pages</p>
+    <p>&copy; 2025 Ihre Ausstellung. Alle Rechte vorbehalten.</p>
   </footer>
+
 </body>
 </html>
