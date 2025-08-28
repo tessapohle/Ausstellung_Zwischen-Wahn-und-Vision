@@ -116,3 +116,32 @@ footer {
     width: 100%;
   }
 }
+.gallery-section {
+  margin-top: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery figure {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+.gallery figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
