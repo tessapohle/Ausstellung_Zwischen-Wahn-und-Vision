@@ -1,36 +1,105 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  background: #fefefe;
-  color: #222;
+/* Farbpalette: Naturfarben */
+:root {
+  --hauptgruen: #588157;
+  --sand: #f4e1d2;
+  --rostrot: #9c6644;
+  --dunkelbraun: #3d2c2e;
+  --hellgrau: #f9f9f9;
 }
 
+/* Grundlayout */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  background-color: var(--hellgrau);
+  color: var(--dunkelbraun);
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
 header {
-  background: #333;
-  color: #fff;
-  padding: 1rem;
+  background-color: var(--hauptgruen);
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
 header h1 {
   margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
 }
 
 nav a {
-  color: #ffd;
-  margin-right: 1rem;
+  color: white;
+  margin: 0 0.8rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Inhalt */
 main {
-  padding: 1rem 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  border-left: 6px solid var(--rostrot);
+  padding-left: 0.6rem;
+}
+
+/* Karten-Layout für Text & Bild */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.card img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.card-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Story-Feature Box */
+.story-feature {
+  background-color: var(--sand);
+  border-left: 5px solid var(--hauptgruen);
+  padding: 1rem;
+  margin: 2rem 0;
+  font-style: italic;
+}
+
+/* Footer */
 footer {
-  background: #333;
-  color: #fff;
+  background-color: var(--hauptgruen);
+  color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
