@@ -1,8 +1,6 @@
 {
-  "@context": [
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Ernst-Oedipe.json",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Oedipe.json",
   "type": "Manifest",
   "label": {
     "de": ["Max Ernst – Œdipe (1931)"]
@@ -49,7 +47,7 @@
   "viewingDirection": "left-to-right",
   "provider": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/",
       "type": "Agent",
       "label": { "de": ["Projekt: Zwischen Wahn und Vision"] },
       "logo": [
@@ -65,18 +63,18 @@
   ],
   "items": [
     {
-      "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/ernst-oedipe-1",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-oedipe-1",
       "type": "Canvas",
       "label": { "de": ["Œdipe (1931)"] },
       "height": 1440,
       "width": 1099,
       "items": [
         {
-          "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/ernst-oedipe-1/page",
+          "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-oedipe-1/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/annotation/ernst-oedipe-1",
+              "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/annotation/ernst-oedipe-1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -86,7 +84,7 @@
                 "height": 1440,
                 "width": 1099
               },
-              "target": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/canvas/ernst-oedipe-1"
+              "target": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-oedipe-1"
             }
           ]
         }
