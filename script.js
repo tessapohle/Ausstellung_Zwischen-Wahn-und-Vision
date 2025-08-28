@@ -1,1 +1,1 @@
-console.log("JavaScript ist geladen!");
+console.log("Script geladen – bereit für Interaktionen");
