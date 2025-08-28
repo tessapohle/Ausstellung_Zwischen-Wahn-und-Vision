@@ -101,6 +101,37 @@ h2 {
   padding: 2rem;
 }
 
+/* Bilder im Textfluss (inline) */
+.inline-image {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.inline-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.inline-figure img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.inline-figure figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
 /* Story-Feature Box */
 .story-feature {
   background-color: var(--story-bg);
@@ -130,6 +161,13 @@ footer {
   }
   .card img, .card-content {
     width: 100%;
+  }
+  .inline-figure {
+    flex-direction: column;
+    margin: 1.5rem 0;
+  }
+  .inline-figure img {
+    max-width: 100%;
   }
 }
 
