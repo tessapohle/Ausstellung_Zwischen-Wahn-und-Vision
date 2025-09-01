@@ -67,6 +67,12 @@ h2 {
   margin: 2.5rem 0 1rem;
   font-weight: normal;
 }
+h3 {
+  font-size: 1rem;
+  color: var(--heading-color);
+  margin: 2.5rem 0 1rem;
+  font-weight: normal;
+}
 
 /* Kartenlayout für Text + Bild nebeneinander */
 .card {
