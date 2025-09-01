@@ -101,6 +101,14 @@ h2 {
   opacity: 0.9;
 }
 
+.card img {
+  max-width: 600px;  /* maximale Breite */
+  width: 100%;       /* passt sich kleineren Displays an */
+  height: auto;
+  display: block;
+  margin: 0 auto;    /* zentriert das Bild innerhalb der Card */
+}
+
 /* Galerie */
 .gallery {
   display: grid;
