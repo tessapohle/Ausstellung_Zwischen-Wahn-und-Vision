@@ -81,23 +81,28 @@ h3 {
   background-color: var(--bg-section);
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 3rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0; /* mehr Luft oben & unten */
 }
 
+/* Textcontainer */
 .card-content {
   flex: 1;
-  padding: 1rem 2rem 0 0;
   min-width: 260px;
+  padding-right: 2rem;
 }
 
+/* Bildcontainer */
 .card-image {
   flex: 0 0 320px;
   max-width: 40%;
-  margin: 0 0 1rem 0;
+  margin: 0 auto; /* zentriert auf kleinen Screens */
 }
 
 .card-image img {
   width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
   border-radius: 0;
   border: 1px solid var(--border-color);
   transition: opacity 0.3s;
@@ -107,13 +112,6 @@ h3 {
   opacity: 0.9;
 }
 
-.card img {
-  max-width: 600px;  /* maximale Breite */
-  width: 100%;       /* passt sich kleineren Displays an */
-  height: auto;
-  display: block;
-  margin: 0 auto;    /* zentriert das Bild innerhalb der Card */
-}
 
 /* Galerie */
 .gallery {
@@ -161,19 +159,17 @@ footer {
   color: #555;
 }
 
-/* Responsive Design */
+
+/* Responsive Anpassung */
 @media (max-width: 768px) {
   .card {
     flex-direction: column;
   }
   .card-image {
     max-width: 100%;
-    margin: 0 auto 1rem auto;
+    margin: 1rem auto 0 auto;
   }
   .card-content {
-    padding: 0 0 1rem 0;
-  }
-  .text-with-image {
-    flex-direction: column;
+    padding: 0;
   }
 }
