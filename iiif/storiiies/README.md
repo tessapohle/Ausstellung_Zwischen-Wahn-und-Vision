@@ -17,3 +17,13 @@ https://storiiies.cogapp.com/view/bc7m9/dipe-dipus
 Bookmark this link to edit your story in future:
 
 https://storiiies-editor.cogapp.com/?sid=bc732400-898a-11f0-b9b0-43931a10a70d
+
+***
+## Max Ernst - Der Schwachsinnige
+Bookmark this link to share with the world:
+
+https://storiiies.cogapp.com/view/317mb/Der-Schwachsinnige
+
+Bookmark this link to edit your story in future:
+
+https://storiiies-editor.cogapp.com/?sid=31d061a0-89a3-11f0-87f3-e17812a78b5f
