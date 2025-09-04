@@ -28,6 +28,8 @@ Studiengang: M.A. Digital Humanities
 ### Link zur Ausstellung:
 https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/
 
+***
+
 ### Storiies-URL´s:
 August Natterer - Wunderhirthe(II): https://storiiies.cogapp.com/view/897ma/WunderHirtheII
 
