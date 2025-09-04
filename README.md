@@ -12,9 +12,9 @@
 ***
 
 **Eingereicht von:** 
-Tessa Pohle
-Matrikel-Nr.: 5241353
-E-Mail-Adresse: tessa.pohle@mailbox.tu-dresden.de
+Tessa Pohle,
+Matrikel-Nr.: 5241353,
+E-Mail-Adresse: tessa.pohle@mailbox.tu-dresden.de,
 Studiengang: M.A. Digital Humanities
 
 **Abgabedatum:** 30.09.2025
