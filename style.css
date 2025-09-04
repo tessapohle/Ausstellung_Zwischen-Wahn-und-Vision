@@ -153,6 +153,13 @@ figure.inline-figure figcaption {
   }
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border-color);
+  margin: 2.5rem 0;
+}
+
 /* Footer */
 footer {
   background-color: var(--bg-light);
