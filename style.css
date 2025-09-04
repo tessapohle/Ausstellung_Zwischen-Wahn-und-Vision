@@ -141,7 +141,7 @@ figure.inline-figure figcaption {
 .gallery-section .grid iframe {
   flex: 1 1 48%;      /* beide Frames teilen sich den Platz gleich */
   min-width: 300px;   /* verhindert zu schmale Frames */
-  height: 1000px;      /* feste Höhe */
+  height: 600px !important;      /* feste Höhe */
   border: none;
   display: block;     /* wichtig für Flexbox */
 }
