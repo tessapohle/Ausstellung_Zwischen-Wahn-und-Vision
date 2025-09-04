@@ -130,21 +130,31 @@ figure.inline-figure figcaption {
   color: var(--text-color);
 }
 
-/* Bild links neben Einführungstext */
-.text-with-image {
+
+/* Werkvergleich Frames  */
+.gallery-section .grid {
   display: flex;
-  align-items: flex-start;
-  gap: 2rem;
+  gap: 20px;           /* Abstand zwischen den Frames */
+  flex-wrap: wrap;      /* Auf kleinen Bildschirmen untereinander */
+  justify-content: space-between;
 }
 
-.text-with-image .left-image {
-  max-width: 240px;
-  height: auto;
-  border: 1px solid var(--border-color);
+.gallery-section .grid iframe {
+  flex: 1 1 48%;        /* Breite ca. 50%, flexibel */
+  min-width: 300px;     /* verhindert zu schmale Frames */
+  aspect-ratio: 16/9;   /* Höhe passt sich automatisch zur Breite an */
+  border: none;         /* rahmenlos */
 }
 
-.text-with-image .text-content {
-  flex: 1;
+/* Optional: noch etwas mehr Abstand unter mobilen Geräten */
+@media (max-width: 768px) {
+  .gallery-section .grid {
+    gap: 15px;
+  }
+
+  .gallery-section .grid iframe {
+    flex: 1 1 100%;     /* nebeneinander fällt weg, untereinander */
+  }
 }
 
 /* Footer */
