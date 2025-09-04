@@ -30,4 +30,5 @@ https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/
 
 ### Storiies-URL´s:
 August Natterer - Wunderhirthe(II): https://storiiies.cogapp.com/view/897ma/WunderHirtheII
+
 Max Ernst - Oedipe: https://storiiies.cogapp.com/view/bc7m9/dipe-dipus
