@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/manifests/Wunder-Hirthe(II).json",
+  "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Natterer-Wunderhirthe.json",
   "type": "Manifest",
   "label": { "de": ["Sammlung Prinzhorn Heidelberg"] },
   "metadata": [
