@@ -135,25 +135,21 @@ figure.inline-figure figcaption {
 .gallery-section .grid {
   display: flex;
   gap: 20px;           /* Abstand zwischen den Frames */
-  flex-wrap: wrap;      /* Auf kleinen Bildschirmen untereinander */
-  justify-content: space-between;
+  flex-wrap: wrap;      /* bei kleinen Bildschirmen untereinander */
 }
 
 .gallery-section .grid iframe {
-  flex: 1 1 48%;        /* Breite ca. 50%, flexibel */
-  min-width: 300px;     /* verhindert zu schmale Frames */
-  aspect-ratio: 16/9;   /* Höhe passt sich automatisch zur Breite an */
-  border: none;         /* rahmenlos */
+  flex: 1 1 48%;       /* beide Frames teilen sich den Platz gleich */
+  min-width: 300px;    /* verhindert zu schmale Frames */
+  aspect-ratio: 16/9;  /* Höhe passt sich automatisch an */
+  border: none;
+  display: block;      /* wichtig für Flexbox */
 }
 
-/* Optional: noch etwas mehr Abstand unter mobilen Geräten */
+/* Responsive für Smartphones */
 @media (max-width: 768px) {
-  .gallery-section .grid {
-    gap: 15px;
-  }
-
   .gallery-section .grid iframe {
-    flex: 1 1 100%;     /* nebeneinander fällt weg, untereinander */
+    flex: 1 1 100%;    /* volle Breite untereinander */
   }
 }
 
