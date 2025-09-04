@@ -139,11 +139,11 @@ figure.inline-figure figcaption {
 }
 
 .gallery-section .grid iframe {
-  flex: 1 1 48%;       /* beide Frames teilen sich den Platz gleich */
-  min-width: 300px;    /* verhindert zu schmale Frames */
-  aspect-ratio: 16/9;  /* Höhe passt sich automatisch an */
+  flex: 1 1 48%;      /* beide Frames teilen sich den Platz gleich */
+  min-width: 300px;   /* verhindert zu schmale Frames */
+  height: 600px;      /* feste Höhe */
   border: none;
-  display: block;      /* wichtig für Flexbox */
+  display: block;     /* wichtig für Flexbox */
 }
 
 /* Responsive für Smartphones */
