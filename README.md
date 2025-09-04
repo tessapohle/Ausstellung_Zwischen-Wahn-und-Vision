@@ -29,3 +29,4 @@ Studiengang: M.A. Digital Humanities
 https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/
 
 ### Storiies-URL´s:
+Max Ernst - Oedipe: https://storiiies.cogapp.com/view/bc7m9/dipe-dipus
