@@ -35,4 +35,6 @@ August Natterer - Wunderhirthe(II): https://storiiies.cogapp.com/view/897ma/Wund
 
 Max Ernst - Oedipe: https://storiiies.cogapp.com/view/bc7m9/dipe-dipus
 
+Karl Genzel - Der Teufel mit Pferdefuß und Horn: https://storiiies.cogapp.com/view/1a7mc/Der-Teufel-mit-Pferdefu
+
 Max Ernst - Der Schwachsinnige: https://storiiies.cogapp.com/view/317mb/Der-Schwachsinnige
