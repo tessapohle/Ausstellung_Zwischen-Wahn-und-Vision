@@ -63,18 +63,18 @@
   ],
   "items": [
     {
-      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/1",
+      "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/natterer-wunderhirthe-1",
       "type": "Canvas",
       "label": { "de": ["Wunder-Hirthe(II)"] },
       "height": 1440,
       "width": 1151,
       "items": [
         {
-          "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/1/page/1",
+          "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/natterer-wunderhirthe-1/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/annotation/1",
+              "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/annotation/natterer-wunderhirthe-1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -91,7 +91,7 @@
                   }
                 ]
               },
-              "target": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/1"
+              "target": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/natterer-wunderhirthe-1"
             }
           ]
         }
