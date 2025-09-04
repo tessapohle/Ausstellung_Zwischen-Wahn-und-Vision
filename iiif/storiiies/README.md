@@ -1,3 +1,14 @@
+## August Natterer - Wunderhirthe(II)
+Bookmark this link to share with the world:
+
+https://storiiies.cogapp.com/view/897ma/WunderHirtheII
+
+Bookmark this link to edit your story in future:
+
+https://storiiies-editor.cogapp.com/?sid=899baeb0-8991-11f0-aabc-23ec1f9b9c67
+
+***
+
 ## Max Ernst - Ödipus
 Bookmark this link to share with the world:
 
