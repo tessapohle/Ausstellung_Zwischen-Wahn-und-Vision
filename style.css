@@ -74,45 +74,6 @@ h3 {
   font-weight: normal;
 }
 
-/* Kartenlayout für Text + Bild nebeneinander */
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: var(--bg-section);
-  border-bottom: 1px solid var(--border-color);
-  margin-bottom: 3rem;
-  padding: 2rem 0; /* mehr Luft oben & unten */
-}
-
-/* Textcontainer */
-.card-content {
-  flex: 1;
-  min-width: 260px;
-  padding-right: 2rem;
-}
-
-/* Bildcontainer */
-.card-image {
-  flex: 0 0 320px;
-  max-width: 40%;
-  margin: 0 auto; /* zentriert auf kleinen Screens */
-}
-
-.card-image img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  display: block;
-  border-radius: 0;
-  border: 1px solid var(--border-color);
-  transition: opacity 0.3s;
-}
-
-.card-image img:hover {
-  opacity: 0.9;
-}
-
-
 /* Galerie */
 .gallery {
   display: grid;
@@ -120,15 +81,53 @@ h3 {
   gap: 2rem;
 }
 
+.gallery a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .gallery img {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 0;
   transition: opacity 0.3s;
+  display: block;
 }
 
 .gallery img:hover {
   opacity: 0.9;
+}
+
+/* Inline Figure */
+figure.inline-figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figure.inline-figure a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+figure.inline-figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color);
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.3s;
+}
+
+figure.inline-figure img:hover {
+  opacity: 0.9;
+}
+
+figure.inline-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
 }
 
 /* Bild links neben Einführungstext */
@@ -159,17 +158,9 @@ footer {
   color: #555;
 }
 
-
 /* Responsive Anpassung */
 @media (max-width: 768px) {
-  .card {
+  .text-with-image {
     flex-direction: column;
-  }
-  .card-image {
-    max-width: 100%;
-    margin: 1rem auto 0 auto;
-  }
-  .card-content {
-    padding: 0;
   }
 }
