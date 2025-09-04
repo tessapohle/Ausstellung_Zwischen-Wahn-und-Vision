@@ -2,9 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Oedipe.json",
   "type": "Manifest",
-  "label": {
-    "de": ["Surrealismus"]
-  },
+  "label": { "de": ["Surrealismus"] },
   "metadata": [
     {
       "label": { "de": ["Titel"] },
@@ -82,7 +80,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1440,
-                "width": 1099
+                "width": 1099,
+                "service": [
+                  {
+                    "@id": "https://tessapohle.github.io/Zwischen_Wahn_und_Vision/images/Ernst_Max_1891_bis_1976_Bruehl_Paris_Oedipus_Max_Ernst_Bielefeld_0d1bd67d",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level0.json"
+                  }
+                ]
               },
               "target": "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/canvas/ernst-oedipe-1"
             }
