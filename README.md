@@ -30,6 +30,17 @@ https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/
 
 ***
 
+### Manifeste:
+August Natterer - Wunderhirthe(II): https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Natterer-Wunderhirthe.json
+
+Max Ernst - Oedipe: https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Oedipe.json
+
+Karl Genzel - Der Teufel mit Pferdefuß und Horn: https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Genzel-Teufel.json
+
+Max Ernst - Der Schwachsinnige: https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Ernst-Der-Schwachsinnige.json
+
+***
+
 ### Storiies-URL´s:
 August Natterer - Wunderhirthe(II): https://storiiies.cogapp.com/view/897ma/WunderHirtheII
 
