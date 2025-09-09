@@ -119,7 +119,7 @@ figure.inline-figure a {
 
 figure.inline-figure img {
   max-width: 100%;
-  height: 1000px;
+  height: 600px;
   border: 1px solid var(--border-color);
   display: block;
   margin: 0 auto;
