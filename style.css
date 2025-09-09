@@ -177,7 +177,24 @@ hr {
   height: 1000px !important; /* gleiche Höhe wie Container */
   max-height: 1000px;
 }
+/* Responsive Anpassung für kleinere Bildschirme */
+@media (max-width: 768px) {
+  #mirador-viewer {
+    height: 400px;  /* kleinere Höhe für Tablets und Smartphones */
+  }
+  #mirador-viewer .mirador-viewer {
+    max-height: 400px;
+  }
+}
 
+@media (max-width: 480px) {
+  #mirador-viewer {
+    height: 300px;  /* sehr kleine Höhe für Handys */
+  }
+  #mirador-viewer .mirador-viewer {
+    max-height: 300px;
+  }
+}
 
 /* Footer */
 footer {
