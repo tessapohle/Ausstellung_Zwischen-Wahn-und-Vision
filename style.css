@@ -166,40 +166,11 @@ hr {
   margin: 2.5rem 0;
 }
 
-/* Mirador */
-#mirador-viewer {
+#uv-frame {
+  display: block;
   width: 100%;
-  height: 1000px;         
-  margin: 20px auto;
-  border: 1px solid #ccc;
-  position: relative;    
-  overflow: hidden;      
-}
-
-#mirador-viewer .mirador-viewer {
-  position: relative !important; 
-  height: 100% !important;
-  max-height: 100% !important;
-}
-
-
-/* Responsive Anpassung für kleinere Bildschirme */
-@media (max-width: 768px) {
-  #mirador-viewer {
-    height: 400px;  /* kleinere Höhe für Tablets und Smartphones */
-  }
-  #mirador-viewer .mirador-viewer {
-    max-height: 400px;
-  }
-}
-
-@media (max-width: 480px) {
-  #mirador-viewer {
-    height: 300px;  /* sehr kleine Höhe für Handys */
-  }
-  #mirador-viewer .mirador-viewer {
-    max-height: 300px;
-  }
+  height: 1000px;   
+  border: 2px solid #333;
 }
 
 /* Footer */
