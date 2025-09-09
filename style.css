@@ -17,11 +17,6 @@ body {
   line-height: 1.7;
   font-size: 1.05rem;
 }
-html, body {
-  margin: 0;
-  padding: 0;
-  height: auto;
-}
 
 
 /* Header & Navigation */
