@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="de">
 <head>
   <meta charset="UTF-8">
   <title>August Natterer</title>
@@ -7,7 +5,7 @@
   <link rel="stylesheet" href="https://unpkg.com/universalviewer@latest/dist/uv.css">
   <style>
     body { margin: 0; padding: 0; }
-    #uv { width: 100%; height: 1000px; }
+    #uv { width: 100%; height: 1000px; margin-bottom: 2rem; }
   </style>
 </head>
 <body>
@@ -45,19 +43,23 @@ kommen viele Weh. [...] Der Hirt bin ich der gute Hirt - Gott! [sic] (August Nat
 
 
       <div id="uv"></div>
+
+      <!-- UV laden -->
       <script src="https://unpkg.com/universalviewer@latest/dist/uv.js"></script>
-    
       <script>
-        const uv = new UV.Viewer({
-          target: "#uv",
-          data: "../iiif/manifests/Natterer-Wunderhirthe.json", // Dein lokal gehostetes Manifest
-          options: {
-            defaultView: "single",      // Nur eine Seite zuerst
-            sidePanelEnabled: false,    // Kein Panel laden
-            enableAnnotations: false,   // Annotationen deaktiviert
-            enableTextSelection: false, // Textsuche deaktiviert
-            enableZoomControls: true    // Zoom bleibt aktiv
-          }
+        document.addEventListener("DOMContentLoaded", function() {
+          const uv = new UV.Viewer({
+            target: "#uv",
+            // Testmanifest (funktioniert sofort)
+            data: "https://iiif.io/api/presentation/2.1/example/fixtures/1/manifest.json",
+            options: {
+              defaultView: "single",      // Nur erste Seite laden
+              sidePanelEnabled: false,    // Kein Panel
+              enableAnnotations: false,   // Annotationen aus
+              enableTextSelection: false, // Textsuche aus
+              enableZoomControls: true    // Zoom an
+            }
+          });
         });
       </script>
       
