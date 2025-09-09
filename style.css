@@ -8,7 +8,7 @@
   --border-color: #e5e5e5;    /* dezente Linien */
 }
 
-/* Grundlegende Typografie */
+
 body {
   margin: 0;
   font-family: "Georgia", "Times New Roman", serif; /* klassischer Print-Look */
@@ -17,6 +17,12 @@ body {
   line-height: 1.7;
   font-size: 1.05rem;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
 
 /* Header & Navigation */
 header {
@@ -166,6 +172,10 @@ hr {
   height: 1000px;      
   margin: 20px auto;  
   border: 1px solid #ccc; 
+}
+#mirador-viewer .mirador-viewer {
+  height: 1000px !important; /* gleiche Höhe wie Container */
+  max-height: 1000px;
 }
 
 
