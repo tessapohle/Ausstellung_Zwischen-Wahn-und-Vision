@@ -38,15 +38,17 @@ Schaffell um sich hängen gehabt. Auf diesem war Wolle, das waren lauter W, d.h.
 kommen viele Weh. [...] Der Hirt bin ich der gute Hirt - Gott! [sic] (August Natterer)</i></p>
       <p> So beschrieb Natterer die Grundlage für sein Kunstwerk „Wunder-Hirthe(II)”. </p>
 
-  <div id="openseadragon" style="width: 100%; height: 1000px;"></div>
-  <script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
-  <script>
-    OpenSeadragon({
-    id: "openseadragon",
-    prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
-    tileSources: "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Natterer-Wunderhirthe.json"
-  });
-</script>
+
+      <div id="viewer"></div>
+      <script src="https://unpkg.com/mirador/dist/mirador.min.js"></script>
+      <script>
+        Mirador.viewer({
+          id: "viewer",
+          windows: [
+            { loadedManifest: "https://tessapohle.github.io/Ausstellung_Zwischen-Wahn-und-Vision/iiif/manifests/Natterer-Wunderhirthe.json" }
+          ]
+        });
+      </script>
       
       <p>
         <strong>August Natterer</strong> litt unter Wahnvorstellungen, in denen er sich als machtvolle Persönlichkeit, wie als Kaiser von Frankreich und Deutschland sah. Seine kleinteiligen Zeichnungen, die seine Halluzinationen und Visionen darstellen, zeigen realitätsferne und einzigartige Verschachtelungen von Formen und Elementen. Beispiele seiner Werke sind „Hexe mit Adler”, „Antichrist” oder „Weltachse mit Hase (II)”.
