@@ -168,15 +168,21 @@ hr {
 
 /* Mirador */
 #mirador-viewer {
-  width: 100%;       
-  height: 1000px;      
-  margin: 20px auto;  
-  border: 1px solid #ccc; 
+  width: 100%;
+  height: 1000px;         
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  position: relative;    
+  overflow: hidden;      
 }
+
 #mirador-viewer .mirador-viewer {
-  height: 1000px !important; /* gleiche Höhe wie Container */
-  max-height: 1000px;
+  position: relative !important; 
+  height: 100% !important;
+  max-height: 100% !important;
 }
+
+
 /* Responsive Anpassung für kleinere Bildschirme */
 @media (max-width: 768px) {
   #mirador-viewer {
